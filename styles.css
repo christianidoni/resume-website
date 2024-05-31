@@ -1,0 +1,156 @@
+body {
+  background-color: #eaf4f4;
+  color: #414754;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  background-color: #414754;
+}
+
+.content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #414754;
+}
+
+/* --------> left-content <-------- */
+
+.left-content {
+  width: 30%;
+  min-width: 200px;
+  font-size: initial;
+  vertical-align: top;
+  float: left;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #414754;
+}
+
+.left-content h2 {
+  margin-top: 200px;
+  color: white;
+}
+
+.left-content ul {
+  text-align: left;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.left-content ul img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -28px;
+  top: -10px;
+  margin-top: 0;
+}
+
+.left-content ul li {
+  margin: 20px 0;
+}
+
+.left-content ul a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.left-content img {
+  margin-top: 100px;
+  border-radius: 50%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* --------> right-content <-------- */
+
+.content-wrapper .right-content img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.right-content {
+  width: 70%;
+  font-size: initial;
+  float: right;
+  background-color: #e3e8f0;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.right-content section,
+.right-content article {
+  border: 1px solid #414754;
+  border-radius: 8px;
+  border-top: none;
+  padding: 16px;
+  margin: 24px 0;
+  background-color: white;
+}
+
+.right-content h1 {
+  display: none;
+}
+
+.right-content h2 {
+  background-color: #414754;
+  color: white;
+  margin: -16px -16px 24px;
+  padding: 8px;
+  border-radius: 8px 8px 0 0;
+}
+
+.right-content ul {
+  list-style: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 36px;
+}
+
+.button a {
+  color: #414754;
+}
+
+.button:hover a,
+.button.active a {
+  color: #82807f;
+}
+
+.button:after {
+  content: "|";
+  margin: 0 20px;
+}
+.button:last-child:after {
+  display: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
